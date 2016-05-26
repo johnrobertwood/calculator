@@ -9,12 +9,7 @@ body {
 
 }
 
-h1 {
-  font-size: 1.5em;
-  text-align: center;
-}
-
-div.container{
+.container{
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -22,15 +17,14 @@ div.container{
   flex-wrap: wrap;
   max-width:340px;
   height: 400px;
-  background-color: #00cc99;
+  background-color: #8c8c8c;
   padding: 40px;
-  border-radius: 3px;
+  border-radius: 5%;
   margin-top: 30px;
-
 }
 
 input {
-  margin: 5px;
+  margin: 0 auto 15px;
   width: 200px;
   text-align: right;
   padding: 10px;
